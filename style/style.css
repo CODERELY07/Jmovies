@@ -12,7 +12,7 @@ body{
     color: #000;
 }
 .container{
-    background: url('/JMovies/img/bg1.jpg');
+    background: url('bg1.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;

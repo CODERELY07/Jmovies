@@ -1,3 +1,13 @@
+const logo = document.querySelector('.logo');
+console.log(logo); // This logs the selected element for debugging purposes
+
+logo.addEventListener('click', function(event) {
+    event.preventDefault();
+    
+    window.location.href = "index.html";
+});
+
+
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
