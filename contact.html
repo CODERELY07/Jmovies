@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQ</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style/header.css">
+    <link rel="stylesheet" href="style/footer.css">
+    <link rel="stylesheet" href="style/style.css">
+    <script defer src="script/script.js"></script>
+    <style>
+        body{
+            background-color: rgb(33, 33, 33);
+        }
+        .red-btn{
+            background-color: rgb(180, 36, 36);
+            color: #fff;
+            margin-left: 0px;
+        }
+        label{
+            font-weight: bold;
+        }
+        .contact-container{
+            color: #fff;
+            padding: 40px 40px;
+            margin-top: 120px;
+        }
+        .contact-container div{
+            max-width: 500px;
+            margin: 0 auto;
+        }
+        .contact-txt h2{
+            text-align: center;
+            font-size: 30px;
+        }
+        .contact-txt p{
+            text-align: justify;
+            margin: 25px 0;
+        }
+        .inputGroups label{
+            display: block;
+            margin-bottom: 8px;
+            font-size: 14px;
+        }
+        .inputGroups{
+            margin: 30px 0 !important;
+        }
+        .inputGroups:nth-child(2){
+            display: flex;
+            gap: 15px;
+            justify-content: space-between;
+        }
+        .inputGroups:nth-child(2) > *{
+            width: 50%;
+        }
+        .inputGroups input,
+        .inputGroups textarea{
+            width: 100%;
+            border-radius: 10px;
+            color: white;
+            outline: none;
+            padding: 8px;
+            background-color: rgb(69, 69, 69);
+            border: none;
+            resize: none;
+        }
+        .inputGroups textarea{
+            height: 100px;
+        }
+        @media only screen and (min-width:800px){
+            .contact-container{
+                display: flex;
+                flex-direction: row-reverse;
+                gap: 60px;
+                margin-top: 100px;
+                align-items: center;
+            }
+            .contact-container div{
+                width: 50%;
+            }
+            .contact-container form{
+                width: 100%;
+            }
+            .contact-container .inputGroups{
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo"><span class="red">J</span>Movies</div>
+        <nav id="nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="contact.html" class="a">Contact Us</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="#">Credits</a></li>
+            </ul>
+        </nav>
+        <div class="bar" id="bar-click">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </header>
+  
+  <div class="contact-container">
+    <div class="contact-txt">
+        <h2>Contact Us</h2>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia quas tempore facere fugiat veritatis commodi unde odit velit provident expedita, natus, voluptatibus doloremque animi iusto necessitatibus ad soluta. Non, exercitationem.</p>
+    </div>
+
+    <div class="forms">
+        <form action="#">
+            <div class="inputGroups">
+                <label for="">Name</label>
+                <input type="text" name="name" id="name">
+            </div>
+            <div class="inputGroups">
+                <div>
+                    <label for="">Email</label>
+                    <input type="email" name="email" id="email">
+                </div>
+                <div>
+                    <label for="">Phone Number</label>
+                    <input type="number" name="number" id="number">
+                </div>
+            </div>
+            <div class="inputGroups">
+                <label for="">Message</label>
+                <textarea name="" id=""></textarea>
+            </div>
+            <button class="red-btn">Submit</button>
+        </form>
+    </div>
+  </div>
+<footer>
+    <div class="flex">
+        <div>
+            <h3>Genre</h3>
+            <ul>
+                <li>Fiction</li>
+                <li>Fantasy</li>
+                <li>Horror</li>
+                <li>Others...</li>
+            </ul>
+        </div>
+        <div>
+            <h3>Trends</h3>
+            <ul>
+                <li>Damsel</li>
+                <li>Dune</li>
+                <li>Avengers</li>
+                <li>Unforested</li>
+                <li>The Judge</li>
+            </ul>
+        </div>
+        <div>
+            <h3>Actors</h3>
+            <ul>
+                <li>Leonardo Di Carpio</li>
+                <li>Dwayne "The Rock" Johnson</li>
+            </ul>
+        </div>
+    </div>
+    <p>&copy;All Rights Reserved 2024</p>
+</footer>
+</body>
+</html>

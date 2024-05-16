@@ -1,0 +1,40 @@
+footer ul li,
+footer h3,
+footer p{
+    color: #fff;
+}
+footer {
+    background-color: rgba(0, 0, 0, 90%);
+}
+.flex{
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+    margin: 0 auto;
+    width: 80%;
+    flex-wrap: wrap;
+    padding: 30px 20px;
+}
+footer p{
+
+    text-align: center;
+    margin-top: 40px;
+    padding: 20px 30px;
+}
+footer ul{
+    flex-direction: column;
+    padding: 15px 0px;
+    gap: 10px;
+}
+footer ul li:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+footer h3{
+    margin: 5px 0;
+}
+@media only screen and (max-width:500px){
+    .flex {
+            justify-content: space-between;
+    }
+}
