@@ -8,8 +8,11 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
 }
+.active{
+    color: #000;
+}
 .container{
-    background: url('/img/bg1.jpg');
+    background: url('/JMovies/img/bg1.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -28,6 +31,7 @@ body{
 }
 .images img:hover{
     scale: 0.8;
+    border: none;
 }
 .a{
     position: relative;
