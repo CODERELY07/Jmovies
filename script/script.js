@@ -33,10 +33,12 @@ btn.addEventListener("click", () => {
         nav.classList.remove('active');
         icon.classList.remove('fa-x');
         icon.classList.add('fa-bars');
+        document.querySelector('.progress-container').style.zIndex = 1000;
     } else {
         nav.classList.add('active');
         icon.classList.remove('fa-bars');
         icon.classList.add('fa-x');
+        document.querySelector('.progress-container').style.zIndex = 99;
     }
 });
 
