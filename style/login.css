@@ -1,0 +1,99 @@
+body{
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    background-repeat: no-repeat;
+    background: url('../bg1.jpg');
+}
+form{
+    position: relative;
+    color: #fff;
+}
+.logo{
+    color: #ffff;
+}
+.login-container a:hover,
+#signup:hover{
+    text-decoration: underline;
+}
+.login-container{
+    margin: 60px auto 20px;
+    width: 90%;
+    max-width: 500px;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 70px 40px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 8px rgb(0, 0, 0);
+}
+.login-container h3{
+    font-weight: 600;
+    font-size: 30px;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+.login-container form p{
+    font-weight: normal;
+    font-size: 22px;
+    text-align: center;
+    margin: 22px auto;
+}
+.input-groups{
+    line-height: 35px;
+    position: relative;
+}
+.input-groups input{
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid black;
+    font-size: 16px;
+    padding: 12px;
+}
+.input-groups input:focus{
+    outline: 1px solid red;
+    border-color: transparent;
+}
+.input-groups label{
+    line-height: 35px;
+    display: block;
+    margin: 10px 0;
+    font-weight: 600;
+}
+.input-groups i{
+    position: absolute;
+    right: 10px;
+    color: black;
+    cursor: pointer;
+    top: 60px;
+}
+.recovery{
+    float: right;
+    margin-top: 10px;
+}
+.recovery a{
+    color: red;
+}
+.alreadyAccount{
+    text-align: center;
+    font-weight:500;
+    color: white;
+}
+.alreadyAccount a{
+    color: rgb(255, 255, 255);
+}
+input[type="button"]{
+    margin: 70px auto 0;
+    display: block;
+    padding: 12px 35px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    background-color: red;
+    color: #ffff;
+    font-weight: 800;
+    border-radius: 5px;
+    transition: scale 500ms ease-in-out;
+}
+input[type="button"]:hover{
+    scale: 0.9;
+}

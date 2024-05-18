@@ -1,0 +1,43 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style/login.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <script defer src="script/login.js"></script>
+</head>
+<body>
+    <h1 class="logo" id="home"><span class="red">J</span>Movies</h1>
+        <div class="login-container">
+            <form action="account.html" id="form">
+                <h3>Welcome Back!</h3>
+                <p>Log-in your JMovies Account</p>
+
+                <div class="input-groups">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email">
+                    <span class="msg" id="emailErr"></span>
+                </div>
+                <div class="input-groups">
+                    <label for="password">Password</label>
+                    <input type="password" name="password" id="inputField1">
+                    <i class="fa-regular fa-eye-slash eye" id="showPassword1"></i>
+                    <span class="msg" id="errorPass"></span>
+                </div>
+                <small class="recovery">Forgot Password? <a href="#">Recover</a></small>
+                <input type="button" value="Login">
+                
+                <div class="signup-using">
+                
+                  
+                </div>
+            </form>
+
+        </div>
+        <p class="alreadyAccount" id="acc">Don't have an account?<a href="#" id="signup"> Sign up</a></p>
+</body>
+</html>

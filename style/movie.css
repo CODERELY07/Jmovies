@@ -1,0 +1,40 @@
+.movie-main video{
+  margin: 100px auto;
+  width: 100%;
+  max-width: 800px;
+}
+.movie-info{
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    margin: 50px 0;
+}
+.movie-main h2{
+    margin-top: 40px;
+    text-align: center;
+    font-size: 40px;
+    color: wheat;
+}
+.movie-main p,
+.movie-main ul{
+    max-width: 1000px;
+    margin: 20px auto;
+}
+.movie-info li{
+    padding: 20px 0;
+    margin: 0;
+    font-style: italic;
+    font-weight: bold;
+    border-bottom: 3px solid rgb(176, 176, 176);
+}
+.span{
+    font-weight: lighter;
+    color: #fff;
+}
+@media only screen and (max-width:500px) {
+    .movie-main h2{
+        margin-top: 40px;
+        margin-left: 0px;
+        font-size: 25px;
+    }
+}

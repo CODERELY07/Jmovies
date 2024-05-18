@@ -28,6 +28,7 @@ a{
 ul{
     list-style: none;
     display: flex;
+    align-items: center;
     width: 100%;
     gap: 30px;
 }
@@ -37,6 +38,21 @@ ul li a{
 ul li a:hover{
     color: #fff;
     color: red;
+}
+header ul li:last-child{
+    background-color: red;
+    color: #fff;
+    font-weight: 600;
+    padding: 10px 20px;
+    transition: all 500ms ease-in-out;
+    border-radius: 5px;
+}
+header ul li:last-child a:hover{
+    color: #fff;
+}
+header ul li:last-child:hover{
+    border: 1px solid red;
+    background-color: transparent;
 }
 .bar{
     display: none;

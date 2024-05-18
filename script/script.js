@@ -7,7 +7,6 @@ logo.addEventListener('click', function(event) {
     window.location.href = "index.html";
 });
 
-
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
@@ -101,3 +100,4 @@ function startImageSlider() {
 }
 
 startImageSlider();
+

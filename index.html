@@ -35,6 +35,7 @@
                     <li><a href="contact.html">Contact Us</a></li>
                     <li><a href="about.html">About</a></li>
                     <li><a href="credits.html">Credits</a></li>
+                    <li><a href="login.html">Login</a></li>
                 </ul>
             </nav>
             <div class="bar" id="bar-click">
@@ -47,14 +48,14 @@
         <div class="main">
             <div>
                 <h2>Header 1</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi tempore error ut sed deleniti necessitatibus explicabo saepe quas tenetur nesciunt, unde, sunt impedit voluptas sit maiores odit deserunt eum architecto atque ipsam laudantium ratione praesentium! Dicta beatae consectetur nemo enim molestiae blanditiis praesentium, placeat quia quam nisi, inventore esse cum voluptatem voluptatibus possimus quibusdam? Iure, soluta excepturi maiores possimus doloribus ratione nihil? Sequi facilis, quos aspernatur, quo doloremque labore odio magnam consectetur alias porro modi, deserunt assumenda ipsum! Nam magnam incidunt reiciendis omnis, nisi qui repudiandae alias minus perspiciatis eius nihil eaque accusamus necessitatibus ratione fugiat excepturi a expedita atque.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi tempore error ut sed deleniti necessitatibus explicabo saepe quas tenetur nesciunt, unde, sunt impedit voluptas sit maiores odit deserunt eum architecto atque ipsam laudantium ratione praesentium! Dicta beatae consectetur nemo enim molestiae blanditiis praesentium, placeat quia quam nisi, inventore esse cum voluptatem voluptatibus possimus quibusdam?</p>
             </div>
             <div class="center">
                 <div class="dots" id="dots-container"></div>
                 <div class="images">
-                    <img src="img/movie1.jpg" alt="">
-                    <img src="img/movie2.jpg" alt="">
-                    <img src="img/movie3.jpg" alt="">
+                    <img src="img/movie1.jpg" alt="" id="movie1">
+                    <img src="img/movie2.jpg" alt="" id="movie2">
+                    <img src="img/movie3.jpg" alt="" id="movie3">
                 </div>
                
                 <div class="buttons">
@@ -96,5 +97,19 @@
             <p>&copy;All Rights Reserved 2024</p>
         </footer>
     </div>
+    <script>
+        const movie1 = document.getElementById('movie1');
+        const movie2 = document.getElementById('movie2');
+        const movie3 = document.getElementById('movie3');
+        movie1.onclick = function (){
+            window.location.href = "./movie1.html";
+        }
+        movie2.onclick = function (){
+            window.location.href = "./movie2.html";
+        }
+        movie3.onclick = function (){
+            window.location.href = "./movie3.html";
+        }
+    </script>
 </body>
 </html>
