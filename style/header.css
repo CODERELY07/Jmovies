@@ -64,6 +64,13 @@ header ul li:last-child:hover{
     header{
         z-index: 999;
     }
+    header ul li:last-child{
+        background-color: transparent;
+        padding: 0px 0px 20px;
+    }
+    header ul li:last-child:hover{
+        border: none;
+    }
 }
 @media only screen and (max-width:600px) {
     nav{

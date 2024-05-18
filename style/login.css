@@ -11,6 +11,7 @@ form{
 }
 .logo{
     color: #ffff;
+    cursor: pointer;
 }
 .login-container a:hover,
 #signup:hover{
